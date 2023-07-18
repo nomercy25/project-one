@@ -34,7 +34,7 @@ const template = (title, buttons, imgNumber) => (`
             ${buttons.map(button =>`<button class="quiz__button" data-answer="${button}"><span class="quiz__button-dot"></span>${button}</button>`)}
             </div>
             <div class="quiz__img">
-            <img src="/ajax/libs/intl-tel-input/17.0.8/img/pic${imgNumber}.jpg" alt="${title}">
+            <img src="project-one/ajax/libs/intl-tel-input/17.0.8/img/pic${imgNumber}.jpg" alt="${title}">
             </div>
         </div>
         </div>
