@@ -26,7 +26,7 @@ const css = {
 
 let count = 0
 const template = (title, buttons, imgNumber) => (`
-        <img src="/ajax/libs/intl-tel-input/17.0.8/img/logoq.png" style="width: 10%;">
+        <img src="ajax/libs/intl-tel-input/17.0.8/img/logoq.png" style="width: 10%;">
         <div class="container">
         <h2>${title}</h2>
         <div class="quiz__inner">
@@ -34,7 +34,7 @@ const template = (title, buttons, imgNumber) => (`
             ${buttons.map(button =>`<button class="quiz__button" data-answer="${button}"><span class="quiz__button-dot"></span>${button}</button>`)}
             </div>
             <div class="quiz__img">
-            <img src="/ajax/libs/intl-tel-input/17.0.8/img/pic${imgNumber}.jpg" alt="${title}">
+            <img src="ajax/libs/intl-tel-input/17.0.8/img/pic${imgNumber}.jpg" alt="${title}">
             </div>
         </div>
         </div>
