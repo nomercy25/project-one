@@ -1,83 +1,15 @@
-<!DOCTYPE html><html><head>
-    <!-- Required meta tags -->
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Большое спасибо!</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <title>Большое спасибо!</title>
-    <title>Большое спасибо!</title>
-    <script async src="js/fbevents.js"></script><script src="js/jquery-3.1.1.min.js"></script>
-    
-  <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1313718662890974');
-fbq('track', 'PageView');
-fbq('track', 'Lead');
-fbq('track', 'Sale');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1313718662890974&amp;ev=PageView&amp;noscript=1"></noscript>
-<!-- End Meta Pixel Code -->
-
-  <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '4199547460270603');
-fbq('track', 'PageView');
-fbq('track', 'Lead');
-fbq('track', 'Sale');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4199547460270603&amp;ev=PageView&amp;noscript=1"></noscript>
-<!-- End Meta Pixel Code -->
-
-  <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2767560096718198');
-fbq('track', 'PageView');
-fbq('track', 'Lead');
-fbq('track', 'Sale');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2767560096718198&amp;ev=PageView&amp;noscript=1"></noscript>
-<!-- End Meta Pixel Code -->
-  
-</head>
-
-<body>
-    <section class="wrap">
-        <div class="wrap__inner">
-            <div class="wrap__content">
-                <div class="wrap__title">
-                   Спасибо! Ваша заявка принята!<br>
-Обязательно ответьте на звонок нашего менеджера!
-                </div>
-                <div class="wrap__text">
-                 Через 3 секунды вы будете автоматически перенаправлены на платформу.
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Большое спасибо!</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script async src="js/fbevents.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <style>
         body {
             background: linear-gradient(-45deg, #ee7752, #c8c8c8, #23a6d5, #23d5ab);
             background-size: 400% 400%;
@@ -124,24 +56,23 @@ fbq('track', 'Sale');
             font-weight: 400;
         }
     </style>
-    <div class="result"></div>
-   
-        
-        		  <script>
-        				$(document).ready(function(){
-        					 var delay = 3000;
-        					 $.ajax({
-        					  type: 'POST',
-        					  url: 'autologin.php',
-        					  data: {data_c:'150802'},
-        					  success: function(data){
-        						  setTimeout(function() {
-        							 $('.result').html(data);
-        						}, delay);
-        					}
-        					});
-        				});
-        			</script>
-        			
+    </head>
 
-</body></html>
+    <body>
+        <section class="wrap">
+            <div class="wrap__inner">
+                <div class="wrap__content">
+                    <div class="wrap__title">
+                        Спасибо! Ваша заявка принята!<br>
+                        Обязательно ответьте на звонок нашего менеджера!
+                    </div>
+                    <div class="wrap__text">
+                        Через 3 секунды вы будете автоматически перенаправлены
+                        на платформу.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="result"></div>
+    </body>
+</html>
