@@ -1,5 +1,5 @@
 const form = document.querySelector("form");
-const REDIRECT_URL = "congrat-order/index.html";
+const REDIRECT_URL = "/congrat-order/";
 const modalOverlay = document.querySelector(".modal-overlay");
 
 function sendLead(data) {
